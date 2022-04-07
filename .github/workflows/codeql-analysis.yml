@@ -24,7 +24,7 @@ on:
 jobs:
   analyze:
     name: Analyze
-    runs-on: [Custom-Runner1, linux, custom-runner]
+    runs-on: Custom-Runner1
     permissions:
       actions: read
       contents: read
