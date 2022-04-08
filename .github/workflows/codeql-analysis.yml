@@ -21,7 +21,7 @@ on:
 jobs:
   analyze:
     name: Analyze
-    runs-on: [test-runner, linux]
+    runs-on: [test-runner]
     permissions:
       actions: read
       contents: read
